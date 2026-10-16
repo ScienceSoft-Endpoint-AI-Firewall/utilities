@@ -1,0 +1,4 @@
+# Shell scripts must keep LF line endings: a CRLF install.sh fails under bash.
+*.sh  text eol=lf
+*.ps1 text eol=crlf
+*.md  text
