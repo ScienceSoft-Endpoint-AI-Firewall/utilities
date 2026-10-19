@@ -24,15 +24,3 @@ The registry access name and token are in your welcome email.
 | Disk | 20 GB free | 50 GB |
 | Architecture | x86_64 or ARM64 | x86_64 or ARM64 |
 | OS | Linux with systemd | Ubuntu 24.04 LTS |
-
-## Agents
-
-These scripts write the machine-wide enrolment file the agent reads on first
-launch, so managed devices join your fleet with no per-device step. Replace
-`{{FLEET_URL}}` and `{{ENROLL_TOKEN}}` with your values before deploying; the
-scripts refuse to run with the placeholders still in place.
-
-| File | Platform | Deploy with |
-|---|---|---|
-| [`agents/windows/enroll-ss-ai-setup.ps1`](agents/windows/enroll-ss-ai-setup.ps1) | Windows | Intune platform script, SYSTEM context |
-| [`agents/macos/seed-enrollment.sh`](agents/macos/seed-enrollment.sh) | macOS | Any MDM custom script (Jamf, Kandji, Mosyle, Meraki, JumpCloud), root context |
