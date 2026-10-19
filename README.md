@@ -1,6 +1,14 @@
 # AI Firewall utilities
 
-Scripts for installing the AI Firewall server and enrolling agents.
+## Agents
+
+There are no scripts for the agents. Install the agent with its installer and
+join it to your fleet with the enrolment key. The steps, with the exact
+commands, are in the documentation:
+
+- [Roll out the agent](https://sciencesoft-endpoint-ai-firewall.github.io/admin/agents/index.html): what you need, the enrolment key, and what the installer changes
+- [Windows](https://sciencesoft-endpoint-ai-firewall.github.io/admin/agents/windows.html): silent install, Intune, Group Policy
+- [macOS](https://sciencesoft-endpoint-ai-firewall.github.io/admin/agents/macos.html): package install, the enrolment file, Jamf
 
 ## Server
 
