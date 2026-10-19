@@ -31,4 +31,4 @@ The registry access name and token are in your welcome email.
 | RAM | 4 GB | 8 GB |
 | Disk | 20 GB free | 50 GB |
 | Architecture | x86_64 or ARM64 | x86_64 or ARM64 |
-| OS | Linux with systemd | Ubuntu 24.04 LTS |
+| OS | Ubuntu 24.04 | Ubuntu 24.04 LTS |
