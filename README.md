@@ -6,7 +6,7 @@ Scripts for installing the AI Firewall server and enrolling agents.
 
 | File | What it does |
 |---|---|
-| [`server/install.sh`](server/install.sh) | Installs the AI Firewall server on a fresh Ubuntu 24.04 machine: Docker, registry sign-in, and the `aifw` command. |
+| [`install.sh`](install.sh) | Installs the AI Firewall server on a fresh Ubuntu 24.04 machine: Docker, registry sign-in, and the `aifw` command. |
 
 ```bash
 sudo bash install.sh
